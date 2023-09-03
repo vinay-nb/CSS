@@ -1,0 +1,27 @@
+.container {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 4px 4px 0 #b91c1c;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    transform: translateX(4px) translateY(4px);
+    box-shadow: 0 0 0 #b91c1c;
+}
