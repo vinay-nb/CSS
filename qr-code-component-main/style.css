@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200 &family=Poppins&family=Roboto&family=Syne&family=Work+Sans&display=swap');
+
+body {
+    background-color: hsl(220, 15%, 55%);
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Syne', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: hsl(0, 0%, 100%);
+    /* border-radius: 45%; */
+    height: 500px;
+    width: 325px;
+    border-radius: 4%;
+    flex-wrap: wrap;
+
+}
+
+.qr-code {
+    margin-top: 20px;
+    border-radius: 4%;
+    margin-bottom: 0;
+}
+
+.title {
+    font-weight: 700;
+    text-wrap: balance;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+}
+
+.para {
+    text-wrap: balance;
+    text-align: center;
+    color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+}
